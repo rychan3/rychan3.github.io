@@ -1,6 +1,132 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        FINAL
-    </body>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Karla"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Ryan Chan</title>
+    <meta name="author" content="Ryan Chan" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <h3><a href="#about-me">About Me</a></h3>
+          </li>
+          <li>
+            <h3><a href="#past-work">Past Work</a></h3>
+          </li>
+          <li>
+            <h3><a href="#connect">Contact</a></h3>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="introduction-section">
+      <h1 id="welcome">
+        Welcome! I'm Ryan, a <span id="swe-text">software_engineer</span>
+      </h1>
+      <div id="wrapper">
+        <div class="intro_component">
+          <div style="display: flex; justify-content: center">
+            <img id="ryan-picture" src="assets/images/ryan.jpg" alt="ryan" />
+          </div>
+        </div>
+        <div class="intro_component" id="about-me">
+          <h2 class="section-title">About Me</h2>
+          <p id="about-me-text">
+            I love to code! I'm a student of computer science in my final year
+            at UC Berkeley. I'm passionate about many different topics of
+            software engineering, ranging from web design to databases all the
+            way to cybersecurity.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-container" id="past-work-section">
+      <div class="grid-item-title">
+        <h6 class="section-title" id="past-work">Past Work</h6>
+      </div>
+      <div class="grid-item">
+        <img
+          src="assets/images/rapid7.jpg"
+          alt="rapid7"
+          class="past-work-images"
+        />
+      </div>
+      <div class="grid-item">
+        <h4 class="past-work-titles">
+          Software Engineering Internship @ Rapid7
+        </h4>
+        <p class="past-work-description">
+          <span class="new-line-span">
+            ● Developed UI/UX design for new geofencing feature of blocking IP
+            addresses by country
+          </span>
+          <span class="new-line-span">
+            ● Analyzed and debugged user interface issues within tCell web
+            application, impacting and improving the user experiences of over
+            10,000 clients’ cybersecurity teams
+          </span>
+          <span class="new-line-span">
+            ● Reviewed company bi-weekly production pushes of updated/new
+            features and bug fixes
+          </span>
+        </p>
+      </div>
+      <div class="grid-item">
+        <img
+          src="assets/images/cs161.png"
+          alt="rapid7"
+          class="past-work-images"
+        />
+      </div>
+      <div class="grid-item">
+        <h4 class="past-work-titles">
+          CS161 Project - Encrypted File Sharing System
+        </h4>
+        <p class="past-work-description">
+          <span class="new-line-span">
+            ● Designed and implemented a secure data server that allows for user
+            initialization and log in, file uploads, deletes, shares,
+            revocations, and efficient updates
+          </span>
+          <span class="new-line-span">
+            ● Utilized symmetric and asymmetric encryption to prevent
+            adversaries from reading files and various signature algorithms to
+            detect when a file has been tampered with
+          </span>
+        </p>
+      </div>
+    </div>
+    <div id="connect-section">
+      <h5 class="section-title" id="connect">Connect with me!</h5>
+      <p>
+        Email me at
+        <a href="mailto:ryannchann3@gmail.com">ryannchann3@gmail.com </a> or
+        connect with me on
+        <a href="https://www.linkedin.com/in/rychan3/" target="_blank"
+          >LinkedIn!</a
+        >
+      </p>
+    </div>
+    <div id="button-div">
+      <button type="button" onclick="alert('Thanks for visiting! :)')">
+        Click me!
+      </button>
+    </div>
+  </body>
 </html>
